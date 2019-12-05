@@ -1,4 +1,5 @@
 #include "BSTNode.h"
+#include <string>
 
 //Jonathan Vazquez Rivera
 //jvazquez441@email.suagm.edu
@@ -20,12 +21,15 @@ public:
 	void printGenreMovies(T val);
 	void editMovieInfo(T treeGenre);
 	void printAllMoviesInsideTree();
+	void searchForMovieInTree(T movieTitle);
+
 
 private:
 	BSTNode<T>* root;
 	void visitInOrder(BSTNode<T>* node);
 	void printAllMoviesInTreeInOrder(BSTNode<T>* node);
 	void visitPreOrder(BSTNode<T>* node);
+	void searchVisitInOrder(BSTNode<T>* node, T movieName);
 	void visitPostOrder(BSTNode<T>* node);
 	BSTNode<T>* recursiveSearch(BSTNode<T> *node, T val);
 	bool recursiveSearchForRemove(BSTNode<T>* node, T val);
@@ -282,6 +286,12 @@ inline void BSTree<T>::printAllMoviesInsideTree()
 }
 
 template<class T>
+inline void BSTree<T>::searchForMovieInTree(T movieTitle)
+{
+	searchVisitInOrder(root, movieTitle);
+}
+
+template<class T>
 inline void BSTree<T>::visitInOrder(BSTNode<T>* node)
 {
 	if (node != 0)
@@ -313,6 +323,19 @@ inline void BSTree<T>::visitPreOrder(BSTNode<T>* node)
 		cout << "-" << node->getInfo() << "-";
 		visitPreOrder(node->getLeft());
 		visitPreOrder(node->getRight());
+	}
+}
+
+template<class T>
+inline void BSTree<T>::searchVisitInOrder(BSTNode<T>* node, T movieName)
+{
+	if (node != 0)
+	{
+
+		searchVisitInOrder(node->getLeft(), movieName);
+		cout << "\n-" << node->getInfo() << "-\n";
+		node->searchMovieInGenres(movieName);
+		searchVisitInOrder(node->getRight(), movieName);
 	}
 }
 

@@ -20,7 +20,7 @@ public:
 	void setLeft(BSTNode<T>* l);
 	void setRight(BSTNode<T>* r);
 	void printGenreMovies();
-	void searchMovie(T movieTitle);
+	void searchMovieInGenres(T movieTitle);
 	
 private:
 	BSTNode<T>* left;
@@ -97,7 +97,8 @@ inline void BSTNode<T>::printGenreMovies()
 }
 
 template<class T>
-inline void BSTNode<T>::searchMovie(T movieTitle)
+inline void BSTNode<T>::searchMovieInGenres(T movieTitle)
 {
 	info.searchMovie(movieTitle);
 }
+

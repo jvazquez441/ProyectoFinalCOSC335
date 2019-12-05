@@ -123,7 +123,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Movie.cpp" />
     <ClCompile Include="ProyectoFinalMovieDB.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -132,7 +131,6 @@
     <ClInclude Include="circDLList.h" />
     <ClInclude Include="circDLLNode.h" />
     <ClInclude Include="Genre.h" />
-    <ClInclude Include="Movie.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

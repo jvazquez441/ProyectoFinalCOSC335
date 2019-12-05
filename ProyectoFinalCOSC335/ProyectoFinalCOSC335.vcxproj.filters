@@ -18,9 +18,6 @@
     <ClCompile Include="ProyectoFinalMovieDB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Movie.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="circDLList.h">
@@ -33,9 +30,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BSTNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Movie.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Genre.h">

@@ -237,7 +237,8 @@ inline void circDLList<T>::printRevList()
 {
 	IntDLLNode<T>* ptrNode;
 	ptrNode = head;
-	if (ptrNode != 0) {
+	if (ptrNode != 0) 
+	{
 		while (ptrNode->getPrev() != head) {
 			ptrNode = ptrNode->getPrev();
 			cout << "\nTitle: " << ptrNode->getInfo() 
@@ -257,31 +258,47 @@ inline void circDLList<T>::printRevList()
 template<class T>
 inline void circDLList<T>::printSpecificMovie(T movieTitle)
 {
-	IntDLLNode<T>* ptrNode, * specificMovie;
-	ptrNode = head;
-	specificMovie = 0;
-	if (ptrNode != 0) 
+	IntDLLNode<T>* ptrNode, * movieFound;
+	ptrNode = movieFound = head;
+	;
+	if (ptrNode != 0)
 	{
-		while (ptrNode->getPrev() != head)
+		while (ptrNode->getPrev() != head) 
 		{
 			if (ptrNode->getInfo() == movieTitle)
 			{
-				specificMovie = ptrNode;
+				movieFound = ptrNode;
 			}
 			ptrNode = ptrNode->getPrev();
 		}
 
-		if (specificMovie == 0)
+		if (head->getInfo() == movieTitle)
 		{
-			cout << "\nMovie not found  with search.\n";
+			cout << "\nTitle: " << head->getInfo()
+				 << "\nEditor: " << head->getEditor()
+				 << "\nPlot: " << head->getPlot()
+				 << "\nRelease Year: " << head->getReleaseYear()
+				 << "\nGenre: " << head->getMovieGenre() << endl;
+		}
+		else if (movieFound->getInfo() == movieTitle)
+		{
+			cout << "\nTitle: " << movieFound->getInfo()
+				 << "\nEditor: " << movieFound->getEditor()
+				 << "\nPlot: " << movieFound->getPlot()
+				 << "\nRelease Year: " << movieFound->getReleaseYear()
+				 << "\nGenre: " << movieFound->getMovieGenre() << endl;
+		}
+		else if (ptrNode->getInfo() == movieTitle)
+		{
+			cout << "\nTitle: " << ptrNode->getInfo()
+				<< "\nEditor: " << ptrNode->getEditor()
+				<< "\nPlot: " << ptrNode->getPlot()
+				<< "\nRelease Year: " << ptrNode->getReleaseYear()
+				<< "\nGenre: " << ptrNode->getMovieGenre() << endl;
 		}
 		else
 		{
-			cout << "\nTitle: " << specificMovie->getInfo()
-				<< "\nEditor: " << specificMovie->getEditor()
-				<< "\nPlot: " << specificMovie->getPlot()
-				<< "\nRelease Year: " << specificMovie->getReleaseYear()
-				<< "\nGenre: " << specificMovie->getMovieGenre() << endl;
+			cout << "Movie Not found \n\n";
 		}
 	}
 }

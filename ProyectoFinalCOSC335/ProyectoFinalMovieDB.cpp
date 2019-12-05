@@ -10,20 +10,20 @@ int main()
 	BSTree<string> GenreTree;
 	
 	//   1. Add Genre
-	GenreTree.insert("Horror");
-	GenreTree.insert("Action");
+	//GenreTree.insert("Horror");
+	//GenreTree.insert("Action");
 	//GenreTree.insert("Comedy");
 
 	cout << endl;
 	cout << endl;
 
 	//	2. Add movie 
-	GenreTree.insertMovieToGenre("Action","Transformers", "Robots attack", "Michael Bay", "2009");
-	GenreTree.insertMovieToGenre("Comedy", "Anabelle", "Child possesed attack", "Tarantino", "2018");
-	GenreTree.insertMovieToGenre("Horror", "Carlos", "Child possesed attack", "Tarantino", "2018");
-	GenreTree.insertMovieToGenre("Action", "Jose", "Child possesed attack", "Tarantino", "2018");
-	GenreTree.insertMovieToGenre("Horror", "Alberto", "Child possesed attack", "Tarantino", "2018");
-	GenreTree.insertMovieToGenre("Comedy", "Aelo", "Child possesed attack", "Tarantino", "2018");
+	//GenreTree.insertMovieToGenre("Action","Transformers", "Robots attack", "Michael Bay", "2009");
+	//GenreTree.insertMovieToGenre("Comedy", "Anabelle", "Child possesed attack", "Tarantino", "2018");
+	//GenreTree.insertMovieToGenre("Horror", "Carlos", "Child possesed attack", "Tarantino", "2018");
+	//GenreTree.insertMovieToGenre("Action", "Jose", "Child possesed attack", "Tarantino", "2018");
+	//GenreTree.insertMovieToGenre("Horror", "Alberto", "Child possesed attack", "Tarantino", "2018");
+	//GenreTree.insertMovieToGenre("Comedy", "Aelo", "Child possesed attack", "Tarantino", "2018");
 
 	cout << endl;
 	cout << endl;
@@ -41,7 +41,7 @@ int main()
 	cout << endl;
 
 	//	5. List all movies by genre
-	GenreTree.printAllMoviesInsideTree();
+	//GenreTree.printAllMoviesInsideTree();
 
 	cout << endl;
 	cout << endl;
@@ -55,6 +55,14 @@ int main()
 	cout << endl;
 
 	//	7. Search for a specific movie
+
+	//GenreTree.searchForMovieInTree("Aelo");
+	//cout << "New Search \n\n";
+	//GenreTree.searchForMovieInTree("Transformers");
+	//cout << "New Search \n\n";
+	//GenreTree.searchForMovieInTree("Carlos");
+	//cout << "New Search \n\n";
+	//GenreTree.searchForMovieInTree("Jose");
 
 
 

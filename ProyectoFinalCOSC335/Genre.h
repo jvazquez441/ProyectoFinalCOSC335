@@ -1,7 +1,6 @@
 #pragma once
 
 #include "circDLList.h"
-#include "Movie.h"
 template <class T>
 class Genre
 {
