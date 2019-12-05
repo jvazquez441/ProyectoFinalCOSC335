@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="FullSignature">
   <Class Name="BSTNode&lt;T&gt;">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="0.5" Y="0.5" Width="5.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAgAAIAAAAAAAAAIAEyAAIAAAQQAgAgAAAgAg=</HashCode>
       <FileName>BSTNode.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BSTree&lt;T&gt;">
-    <Position X="3" Y="0.75" Width="1.5" />
+    <Position X="6.5" Y="0.5" Width="4.25" />
     <TypeIdentifier>
       <HashCode>IBAAAASAYADAAAAEAAAgAAAgAAAARAAAACwAACEQQGA=</HashCode>
       <FileName>BSTree.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="circDLList&lt;T&gt;">
-    <Position X="8.25" Y="0.75" Width="1.5" />
+    <Position X="0.5" Y="4.5" Width="5" />
     <TypeIdentifier>
       <HashCode>AQAgABAQgABAAAAAAAgAAAEAAACEAAAAAAAAIAQAQAA=</HashCode>
       <FileName>circDLList.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="IntDLLNode&lt;T&gt;">
-    <Position X="5.75" Y="0.75" Width="1.5" />
+    <Position X="11.25" Y="0.5" Width="5.75" />
     <TypeIdentifier>
       <HashCode>AAAAQAAEAEAAAAAAAAAAAEAHQAAAAAQBYABCAhIEIAA=</HashCode>
       <FileName>circDLLNode.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Genre&lt;T&gt;">
-    <Position X="0.5" Y="5" Width="1.5" />
+    <Position X="7.25" Y="5.75" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAgwAAAAAAAAACAAAAAAAAAEAAAAAAAAAiAAAg=</HashCode>
       <FileName>Genre.h</FileName>

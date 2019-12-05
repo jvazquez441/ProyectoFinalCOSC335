@@ -6,7 +6,7 @@ using namespace std;
 //jvazquez441@email.suagm.edu
 
 template <class T>
-class BSTNode : public Genre<T>
+class BSTNode
 {
 public:
 	BSTNode(); // Default Constructor
