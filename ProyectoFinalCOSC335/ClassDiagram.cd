@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="BSTNode&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAIAAAAAAAAAIAEyAAIAAAQQAgAAAAAgAA=</HashCode>
+      <FileName>BSTNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSTree&lt;T&gt;">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAQAQADAAAAEAAAgAAAgAAAARAAAACwAAAAQQCA=</HashCode>
+      <FileName>BSTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="circDLList&lt;T&gt;">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAQgABAAAAAAAgAAAEAAACEAAAAAAAAIAQAQAA=</HashCode>
+      <FileName>circDLList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IntDLLNode&lt;T&gt;">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEAEAAAAAAAAAAAEAHQAAAAAQBYABCAhIEIAA=</HashCode>
+      <FileName>circDLLNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genre&lt;T&gt;">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAwAAAAAAAAACAAAAAAAAAEAAAAAAAAAiAAAA=</HashCode>
+      <FileName>Genre.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
